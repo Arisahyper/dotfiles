@@ -32,5 +32,11 @@ if [ ! -d ~/.config ]; then
     mkdir ~/.config
 fi
 
+# Rustup
+if [ ! -f ~/.cargo/bin/rustup ]; then
+    curl https://sh.rustup.rs -sSf | sh
+fi
+
+# link to package
 stow -v -d ~/dotfiles/packages -t ~ zsh
 stow -v -d ~/dotfiles/packages -t ~/.config config
