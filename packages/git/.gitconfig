@@ -1,0 +1,21 @@
+[user]
+	name = Yoshitsugu Tahara
+	email = arisahyper0000@gmail.com
+[core]
+	excludesfile = /Users/arisahyper/.gitignore_global
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/arisahyper/.stCommitMsg
+[init]
+	defaultBranch = main
+[color]
+	ui = true
+[alias]
+	s = status
+	b = branch
+	

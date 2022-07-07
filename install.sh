@@ -38,5 +38,5 @@ if [ ! -f ~/.cargo/bin/rustup ]; then
 fi
 
 # link to package
-stow -v -d ~/dotfiles/packages -t ~ zsh
+stow -v -d ~/dotfiles/packages -t ~ zsh git
 stow -v -d ~/dotfiles/packages -t ~/.config config
