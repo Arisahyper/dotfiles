@@ -23,7 +23,7 @@ else
 fi
 
 if [ ! -d ~/dotfiles ]; then
-    cd $HOME && git clone git@github.com:<UserName>/dotfiles.git
+    cd $HOME && git clone git@github.com:arisahyper/dotfiles.git
 fi
 
 brew bundle -v --file=~/dotfiles/Brewfile
