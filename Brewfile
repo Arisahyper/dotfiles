@@ -7,3 +7,4 @@ brew "yabai"  # window manager
 brew "skhd"   # window controler
 brew "tree"   # directory tree
 brew "n"      # Node version manager
+brew "fig"    # Fig
